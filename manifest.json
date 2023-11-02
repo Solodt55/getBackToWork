@@ -1,12 +1,15 @@
 {
     "manifest_version": 3,
     "name": "get-back-to-work",
-    "description": "Codesmith teachers remind us to get back to work.",
+    "description": "Codesmith teachers remind us to get back to ",
     "version": "1.0",
     "content_scripts": [
       {
         "js": ["main.js"],
         "matches": ["<all_urls>"]
       }
-    ]
+    ],
+    "action": {
+        "default_icon": "images/Clinks.png"
+    }
   }
